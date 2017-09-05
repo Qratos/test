@@ -10,3 +10,8 @@ spring:
     hibernate:
         ddl-auto: update
     show-sql: true
+  data:
+    mongodb:
+      host: 192.168.1.45
+      port: 27017
+      database: test
